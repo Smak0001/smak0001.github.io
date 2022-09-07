@@ -1,0 +1,12 @@
+body {background-color: white}
+ nav {font-family: Arial, Helvetica, sans-serif;}
+
+article {color:black;}
+
+.default {background-color: lightcyan;}
+
+hr {height: 2px;
+background-color: black;
+border-color:black;}
+
+h1, h5 {text-align: center;}
