@@ -1,0 +1,69 @@
+body {
+  background-color: white
+}
+
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  color: black;
+}
+
+.default {
+  background-color: lightcyan;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  border-color: black;
+}
+
+h1,
+h5,
+p {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: blue;
+}
+
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
