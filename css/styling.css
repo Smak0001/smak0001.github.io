@@ -16,6 +16,14 @@
     border-radius: 20px;
 }
 
+.hz-logo {
+    width: 5%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
 .coding-picture {
     width: 40%;
     height: auto;
@@ -154,43 +162,15 @@
     }
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: left;
     vertical-align: text-top;
     font-size: 35px;
-    
-  }
 
- 
-
-
-  .wrapper {
-    width: 500px;
-    height: auto;
-    padding-top: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.progress-bar {
-    width: 100%;
-    background-color: #e0e0e0;
-    padding: 3px;
-    border-radius: 3px;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
-}
-
-.progress-bar-fill {
-    display: block;
-    height: 22px;
-    background-color: #659cef;
-    border-radius: 3px;
-    
-    transition: width 500ms ease-in-out;
 }
 
 .border {
@@ -202,5 +182,5 @@ table, th, td {
 }
 
 html {
-    background-color: skyblue;
+    background-color: lightskyblue;
 }
