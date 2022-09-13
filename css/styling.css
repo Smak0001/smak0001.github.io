@@ -17,10 +17,10 @@
 }
 
 .hz-logo {
-    width: 5%;
+    width: 10%;
     height: auto;
     display: block;
-    margin-right: auto;
+    margin-left: auto;
     border-radius: 20px;
 }
 
@@ -222,6 +222,10 @@ element.style {
 }
 .progress-bar-danger {
     background-color: #d9534f;
+    border-radius: 3px;
+}
+.progress-bar-current {
+    background-color: #ff8c00;
     border-radius: 3px;
 }
 .progress-bar-success {
