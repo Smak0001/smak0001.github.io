@@ -198,22 +198,32 @@ td {
 }
 
 .border {
-    border-style: solid;
-    border-color: lightskyblue;
-    background-color: lightskyblue;
-    border: 2px solid lightskyblue;
-    border-radius: 5px;
+    background-color: rgb(95, 199, 218);
+    color: black;
+    border: 1px solid rgba(77, 48, 240, 0.185);
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    text-align: center;
+    outline: none;
+    transition: 1.5s;
 }
 
+.border-active, .border:hover {
+    background-color: rgb(29, 217, 250);
+  }
+
+
 .border-blog {
-    box-shadow: 0 4px 8px 0 rgba(77, 48, 240, 0.678);
-    background-color: rgba(77, 48, 240, 0.185);;
-    transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
-    height: 80px; /* or however you want it */
-    width:auto; /*so that the image ratio stays the same */
-    
-    
+    background-color: rgb(95, 199, 218);
+    color: black;
+    border: 2px solid rgba(77, 48, 240, 0.185);
+    cursor: pointer;
+    padding: 15px;
+    width: 45%;
+    text-align: left;
+    outline: none;
+    transition: 1.5s;
 }
 
 
