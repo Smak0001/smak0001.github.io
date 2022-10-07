@@ -65,6 +65,13 @@ h5 {
     border-radius: 20px;
 }
 
+.photo-xander {
+    float: left ;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
 .website-smakict {
     display: block;
     margin: auto;
@@ -199,12 +206,13 @@ td {
 }
 
 .border-blog {
-    border-style: solid;
-    border-width: auto;
-    border-left-width: auto;
-    border-right-width: auto;
-    border-color: rgb(57, 176, 250);
-    background-color: rgb(57, 176, 250);
+    box-shadow: 0 4px 8px 0 rgba(77, 48, 240, 0.678);
+    background-color: rgba(77, 48, 240, 0.185);;
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    height: 80px; /* or however you want it */
+    width:auto; /*so that the image ratio stays the same */
+    
     
 }
 
