@@ -199,16 +199,18 @@ td {
 }
 
 .border-blog {
-    border-style: dashed;
-    border-width: 3px;
-    border-left-width: 10px;
-    border-right-width: 10px;
-    border-color: red;
+    border-style: solid;
+    border-width: auto;
+    border-left-width: auto;
+    border-right-width: auto;
+    border-color: rgb(57, 176, 250);
+    background-color: rgb(57, 176, 250);
+    
 }
 
 
 html {
-    background-color: lightskyblue;
+    background-color: rgb(135, 206, 250);
 }
 
 
