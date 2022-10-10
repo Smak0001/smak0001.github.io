@@ -1,13 +1,14 @@
 p {
-    font-size:larger;
+    font-size: larger;
 }
 
-li,ol {
-    font-size:larger;
+li,
+ol {
+    font-size: larger;
 }
 
 h5 {
-    font-size:small;
+    font-size: small;
 }
 
 
@@ -66,7 +67,7 @@ h5 {
 }
 
 .photo-xander {
-    float: left ;
+    float: left;
     margin-top: 15px;
     margin-right: 15px;
     border-radius: 20px;
@@ -209,9 +210,21 @@ td {
     transition: 1.5s;
 }
 
-.border-active, .border:hover {
+.border-feedback {
+    background-color: rgb(95, 199, 218);
+    color: black;
+    border: 1px solid rgba(77, 48, 240, 0.185);
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    text-align: left;
+    outline: none;
+    transition: 1.5s;
+}
+.border-active,
+.border:hover {
     background-color: rgb(29, 217, 250);
-  }
+}
 
 
 .border-blog {
@@ -356,7 +369,7 @@ user agent stylesheet div {
     display: block;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     padding: 5px;
