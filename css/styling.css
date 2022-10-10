@@ -355,3 +355,11 @@ element.style {
 user agent stylesheet div {
     display: block;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: lightskyblue;
+    color: #fff;
+}
