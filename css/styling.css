@@ -375,6 +375,16 @@ user agent stylesheet div {
     display: block;
 }
 
+.video{
+    width: 420px;;
+    height: 340px; 
+}
+
+.video-section{
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     display: flex;
     justify-content: center;
