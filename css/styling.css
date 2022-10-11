@@ -39,9 +39,9 @@ h5 {
     border-radius: 20px;
 }
 
-.google-maps-location{
+.google-maps-location {
     border-radius: 20px;
-    padding:2px;
+    padding: 2px;
     background-color: blue;
 }
 
@@ -227,6 +227,7 @@ td {
     outline: none;
     transition: 1.5s;
 }
+
 .border-active,
 .border:hover {
     background-color: rgb(29, 217, 250);
@@ -375,12 +376,13 @@ user agent stylesheet div {
     display: block;
 }
 
-.video{
-    width: 420px;;
-    height: 340px; 
+.video {
+    width: 420px;
+    ;
+    height: 340px;
 }
 
-.video-section{
+.video-section {
     display: flex;
     justify-content: center;
 }
