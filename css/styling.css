@@ -39,6 +39,12 @@ h5 {
     border-radius: 20px;
 }
 
+.google-maps-location{
+    border-radius: 20px;
+    padding:2px;
+    background-color: blue;
+}
+
 .coding-picture {
     width: 40%;
     height: auto;
