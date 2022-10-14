@@ -217,7 +217,7 @@ td {
 }
 
 .border-feedback {
-    background-color: rgb(95, 199, 218);
+    background-color: rgb(5, 199, 218);
     color: black;
     border: 1px solid rgba(77, 48, 240, 0.185);
     cursor: pointer;
